@@ -29,8 +29,8 @@ export interface Product {
   id: string;
   name: string;
   category: string;
-  price: number;
-  originalPrice: number;
+  price: string;
+  originalPrice: string;
   rating: number;
   reviewsCount: number;
   soldCount: string;
