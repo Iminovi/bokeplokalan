@@ -1,4 +1,8 @@
 import { Product } from '../types';
+import smartwatchImg from '../assets/images/smartwatch_oled_black_1790105508170.jpg';
+import twsImg from '../assets/images/tws_earbuds_case_1790105524294.jpg';
+import shirtImg from '../assets/images/oversized_linen_shirt_1790105539917.jpg';
+import tumblerImg from '../assets/images/tumbler_vacuum_flask_1790105552059.jpg';
 
 export const INITIAL_PRODUCTS: Product[] = [
   {
@@ -10,7 +14,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.9,
     reviewsCount: 1420,
     soldCount: '3.8rb',
-    image: '/src/assets/images/smartwatch_oled_black_1790105508170.jpg',
+    image: smartwatchImg,
     badge: 'Diskon 50%',
     isPromo: true,
     description: 'Smartwatch generasi terbaru dengan panel layar AMOLED jernih, sensor detak jantung presisi tinggi 24 jam, ketahanan air IP68, dan daya tahan baterai hingga 14 hari pemakaian aktif.',
@@ -32,7 +36,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.8,
     reviewsCount: 2890,
     soldCount: '7.2rb',
-    image: '/src/assets/images/tws_earbuds_case_1790105524294.jpg',
+    image: twsImg,
     badge: 'Terlaris',
     isPromo: true,
     description: 'Earphone nirkabel ergonomis dengan acoustic driver 13mm bertenaga bass dalam. Dilengkapi active noise reduction dan mode latensi rendah 40ms khusus gaming dan nonton film.',
@@ -54,7 +58,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.7,
     reviewsCount: 890,
     soldCount: '1.9rb',
-    image: '/src/assets/images/oversized_linen_shirt_1790105539917.jpg',
+    image: shirtImg,
     badge: 'Koleksi Baru',
     isPromo: false,
     description: 'Kemeja santai bahan perpaduan katun linen organik adem, menyerap keringat, dan tidak mudah kusut. Potongan relaxed fit kasual modern cocok untuk acara kerja santai maupun hangout akhir pekan.',
@@ -76,7 +80,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.9,
     reviewsCount: 3100,
     soldCount: '5.5rb',
-    image: '/src/assets/images/tumbler_vacuum_flask_1790105552059.jpg',
+    image: tumblerImg,
     badge: 'Diskon 40%',
     isPromo: true,
     description: 'Botol minum insulasi ganda SUS 304 food-grade yang mampu menjaga suhu minuman dingin hingga 24 jam dan minuman panas hingga 12 jam. Desain minimalis anti bocor dan ergonomis.',
@@ -98,7 +102,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.8,
     reviewsCount: 650,
     soldCount: '1.4rb',
-    image: '/src/assets/images/oversized_linen_shirt_1790105539917.jpg',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80',
     badge: 'Favorit',
     isPromo: false,
     description: 'Tas ransel komuter dengan kompartemen khusus laptop hingga 15.6 inci berlapis busa tebal. Dilengkapi port USB eksternal dan saku tersembunyi untuk keamanan dompet & smartphone.',
@@ -120,7 +124,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.7,
     reviewsCount: 1120,
     soldCount: '4.1rb',
-    image: '/src/assets/images/smartwatch_oled_black_1790105508170.jpg',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80',
     badge: 'Flash Sale',
     isPromo: true,
     description: 'Kacamata hitam dengan lensa polarized 9 lapis perlindungan UV400 untuk menyaring silau matahari dan pantulan jalan saat berkendara. Bingkai titanium ringan dan kuat.',

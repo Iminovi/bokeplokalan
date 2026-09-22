@@ -15,6 +15,10 @@ import {
   Eye
 } from 'lucide-react';
 import { Product } from '../types';
+import smartwatchImg from '../assets/images/smartwatch_oled_black_1790105508170.jpg';
+import twsImg from '../assets/images/tws_earbuds_case_1790105524294.jpg';
+import shirtImg from '../assets/images/oversized_linen_shirt_1790105539917.jpg';
+import tumblerImg from '../assets/images/tumbler_vacuum_flask_1790105552059.jpg';
 
 interface ProductEditorModalProps {
   isOpen: boolean;
@@ -28,22 +32,22 @@ const PRESET_SAMPLE_IMAGES = [
   {
     name: 'Smartwatch Hitam OLED',
     category: 'Elektronik',
-    url: '/src/assets/images/smartwatch_oled_black_1790105508170.jpg'
+    url: smartwatchImg
   },
   {
     name: 'TWS Wireless Earbuds',
     category: 'Elektronik',
-    url: '/src/assets/images/tws_earbuds_case_1790105524294.jpg'
+    url: twsImg
   },
   {
     name: 'Kemeja Katun Linen',
     category: 'Fashion',
-    url: '/src/assets/images/oversized_linen_shirt_1790105539917.jpg'
+    url: shirtImg
   },
   {
     name: 'Tumbler Insulated SUS 304',
     category: 'Gaya Hidup',
-    url: '/src/assets/images/tumbler_vacuum_flask_1790105552059.jpg'
+    url: tumblerImg
   },
   {
     name: 'Headphone Wireless ANC',
