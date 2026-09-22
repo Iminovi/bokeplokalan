@@ -484,15 +484,15 @@ export default function App() {
                 {/* Visual Label */}
                 <div className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-orange-700 bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
                   <Sparkles className="w-3.5 h-3.5 text-orange-600" />
-                  <span>Katalog Produk Pilihan & Rekomendasi Resmi</span>
+                  <span>Bokep Lokal Pilihan & Rekomendasi Resmi</span>
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl font-extrabold text-stone-900 tracking-tight leading-tight max-w-2xl mx-auto">
-                  Temukan Produk Favorit Kualitas Terbaik
+                  Temukan Bokep Favorit Kualitas Terbaik
                 </h1>
 
                 <p className="text-stone-600 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-                  Koleksi terkurasi dari elektronik pintar, gaya hidup, fashion kasual, hingga aksesoris pilihan langsung dengan harga spesial.
+                  Koleksi terbaru dari banyak pilihan langsung tonton.
                 </p>
 
                 {/* Instant Search Bar */}
@@ -503,7 +503,7 @@ export default function App() {
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Cari smartwatch, earbuds, kemeja, botol minum..."
+                      placeholder="Cari bokep percakapan"
                       className="w-full pl-11 pr-10 py-3 bg-stone-50 border border-stone-200 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-stone-900 focus:bg-white transition-colors"
                     />
                     {searchQuery && (
@@ -564,8 +564,8 @@ export default function App() {
                       className="bg-white border border-stone-200 rounded-lg px-2 py-1 text-xs text-stone-700 font-medium focus:outline-none"
                     >
                       <option value="popular">Paling Laris</option>
-                      <option value="lowest_price">Harga Termurah</option>
-                      <option value="highest_price">Harga Termahal</option>
+                      <option value="lowest_price">Bokep Terbaru</option>
+                      <option value="highest_price">Bokep Terdahulu</option>
                       <option value="rating">Rating Tertinggi</option>
                     </select>
                   </div>
@@ -582,10 +582,10 @@ export default function App() {
                     <Search className="w-5 h-5" />
                   </div>
                   <h3 className="text-base font-bold text-stone-800 mb-1">
-                    Produk Tidak Ditemukan
+                    Video Tidak Ditemukan
                   </h3>
                   <p className="text-xs text-stone-500 mb-4">
-                    Tidak ada produk yang cocok dengan pencarian kata kunci atau filter yang dipilih.
+                    Tidak ada video yang cocok dengan pencarian kata kunci atau filter yang dipilih.
                   </p>
                   <button
                     onClick={() => {
@@ -632,10 +632,10 @@ export default function App() {
                 <div className="space-y-1 text-center sm:text-left">
                   <div className="flex items-center justify-center sm:justify-start gap-2 text-stone-900 font-bold text-sm">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                    <span>Jaminan Belanja Aman & Produk Terpilih</span>
+                    <span>Jaminan Aman & video Terpilih</span>
                   </div>
                   <p className="text-xs text-stone-600 max-w-xl leading-relaxed">
-                    Semua transaksi diarahkan langsung ke toko resmi Shopee dengan perlindungan Garansi Shopee, ulasan terverifikasi, dan opsi pembayaran aman.
+                    
                   </p>
                 </div>
 
@@ -644,7 +644,7 @@ export default function App() {
                     onClick={() => setIsGuideOpen(true)}
                     className="px-4 py-2 bg-white hover:bg-stone-50 text-stone-800 rounded-xl text-xs font-semibold border border-stone-300 transition-colors shadow-xs"
                   >
-                    Baca Panduan Belanja
+                    Baca Panduan 
                   </button>
                   <button
                     onClick={() => {
@@ -654,7 +654,7 @@ export default function App() {
                     className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-xl text-xs font-semibold transition-colors flex items-center gap-1.5 shadow-xs"
                   >
                     <Sparkles className="w-3.5 h-3.5" />
-                    <span>Jelajahi Produk Promo</span>
+                    <span>Jelajahi video</span>
                   </button>
                 </div>
               </div>
@@ -720,10 +720,10 @@ export default function App() {
             title="KatalogKu"
           >
             <ShoppingBag className="w-4 h-4 text-orange-600" />
-            <span>KatalogKu</span>
+            <span>KoleksiKu</span>
           </div>
           <p className="text-stone-500">
-            Katalog produk pilihan terkurasi dengan harga spesial & garansi resmi Shopee.
+            Katalog bokep pilihan.
           </p>
           <div className="pt-2 flex items-center justify-center gap-3 text-[11px] text-stone-400">
             <span 
@@ -731,7 +731,7 @@ export default function App() {
               className="select-none cursor-default"
               title="KatalogKu"
             >
-              &copy; {new Date().getFullYear()} KatalogKu. Hak cipta dilindungi.
+              &copy; {new Date().getFullYear()} Bokepku. Hak cipta dilindungi.
             </span>
 
             {/* Discreet Admin Link (Visible only if stealth mode is disabled) */}
