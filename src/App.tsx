@@ -548,7 +548,7 @@ export default function App() {
                 {/* Quick Info & Sort By */}
                 <div className="flex items-center justify-between sm:justify-end gap-3 text-xs text-stone-500">
                   <span>
-                    Menampilkan <strong className="text-stone-900 font-bold tabular-nums">{filteredProducts.length}</strong> produk
+                    Menampilkan <strong className="text-stone-900 font-bold tabular-nums">{filteredProducts.length}</strong> video
                   </span>
 
                   <div className="flex items-center gap-1.5">
