@@ -73,11 +73,11 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               </div>
               <div className="p-2 bg-stone-50 rounded-lg border border-stone-200/80">
                 <Truck className="w-4 h-4 mx-auto mb-1 text-stone-700" />
-                <span>Gratis Ongkir</span>
+                <span>Gratis </span>
               </div>
               <div className="p-2 bg-stone-50 rounded-lg border border-stone-200/80">
                 <RefreshCw className="w-4 h-4 mx-auto mb-1 text-stone-700" />
-                <span>Garansi Resmi</span>
+                <span>Garansi</span>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 )}
                 {discountPercent > 0 && (
                   <span className="text-xs font-semibold px-2 py-0.5 rounded bg-orange-100 text-orange-700 ml-auto">
-                    Hemat {discountPercent}%
+                    Terbaru {discountPercent}%
                   </span>
                 )}
               </div>
@@ -130,7 +130,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               {/* Feature Highlights */}
               <div className="mt-4 space-y-1.5">
                 <span className="text-xs font-bold text-stone-800 uppercase tracking-wider block">
-                  Keunggulan Produk
+                  kualitas video
                 </span>
                 <ul className="space-y-1 text-xs text-stone-600">
                   {product.features.map((feature, idx) => (
@@ -186,7 +186,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                   className="flex-1 py-2.5 px-4 rounded-xl text-xs font-semibold bg-orange-600 hover:bg-orange-700 text-white shadow-sm transition-colors flex items-center justify-center gap-2"
                 >
                   <ExternalLink className="w-4 h-4" />
-                  <span>Beli Sekarang di Shopee</span>
+                  <span>Tonton sekarang</span>
                 </button>
               </div>
 
@@ -209,7 +209,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               )}
 
               <div className="text-[11px] text-stone-500 text-center">
-                Transaksi aman & pembayaran resmi diproses langsung melalui platform Shopee
+                
               </div>
             </div>
 
