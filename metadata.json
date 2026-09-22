@@ -1,0 +1,6 @@
+{
+  "name": "KatalogKu - Navigasi Terpisah",
+  "description": "Katalog produk modern dengan pemisahan tegas antara menu utama belanja dan panel pengaturan sistem untuk kenyamanan pengguna baru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
