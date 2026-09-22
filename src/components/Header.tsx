@@ -72,7 +72,7 @@ export const Header: React.FC<HeaderProps> = ({
               KatalogKu
             </span>
             <span className="text-[10px] text-stone-600 font-medium tracking-wide">
-              Belanja & Afiliasi Pilihan
+              Bokep pilihan
             </span>
           </div>
         </div>
@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({
                 : 'hover:text-stone-950'
             }`}
           >
-            Promo & Diskon
+            bokep terbaru
           </button>
 
           <button
@@ -126,7 +126,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Wishlist button */}
           <button
             onClick={() => handleNavClick('wishlist')}
-            aria-label="Wishlist Produk"
+            aria-label="tonton terbaru"
             className={`p-2 rounded-lg transition-colors relative ${
               !isSettingsOpen && currentTab === 'wishlist'
                 ? 'bg-stone-200 text-stone-900'
@@ -152,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({
                     ? 'bg-stone-900 text-white border-stone-900 shadow-sm'
                     : 'bg-white text-stone-700 hover:bg-stone-50 border-amber-300 ring-1 ring-amber-300/40'
                 }`}
-                title="Kelola pengaturan tautan afiliasi & konfigurasi sistem"
+                title="Kelola pengaturan "
               >
                 <Settings className={`w-4 h-4 ${isSettingsOpen ? 'text-amber-400 rotate-45 transition-transform' : 'text-amber-600'}`} />
                 <span className="hidden sm:inline">
@@ -194,7 +194,7 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Group 1: MENU UTAMA */}
             <div>
               <div className="text-[11px] font-bold text-stone-600 uppercase tracking-wider mb-2 px-2">
-                Menu Utama Belanja
+                Menu Utama 
               </div>
               <div className="space-y-1">
                 <button
@@ -206,7 +206,7 @@ export const Header: React.FC<HeaderProps> = ({
                   }`}
                 >
                   <ShoppingBag className="w-4 h-4 text-stone-500" />
-                  Katalog Semua Produk
+                  Katalog Semua video
                 </button>
 
                 <button
@@ -218,7 +218,7 @@ export const Header: React.FC<HeaderProps> = ({
                   }`}
                 >
                   <Layers className="w-4 h-4 text-stone-500" />
-                  Kategori Belanja
+                  Kategori Bokep
                 </button>
 
                 <button
@@ -230,7 +230,7 @@ export const Header: React.FC<HeaderProps> = ({
                   }`}
                 >
                   <Sparkles className="w-4 h-4 text-stone-500" />
-                  Promo & Diskon Spesial
+                  video terbaru
                 </button>
 
                 <button
@@ -243,7 +243,7 @@ export const Header: React.FC<HeaderProps> = ({
                 >
                   <span className="flex items-center gap-3">
                     <Heart className="w-4 h-4 text-stone-500" />
-                    Daftar Keinginan (Wishlist)
+                    Daftar
                   </span>
                   {wishlistCount > 0 && (
                     <span className="text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700 font-bold">
@@ -260,7 +260,7 @@ export const Header: React.FC<HeaderProps> = ({
                   className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-stone-700 hover:bg-stone-50 transition-colors"
                 >
                   <BookOpen className="w-4 h-4 text-stone-500" />
-                  Panduan Belanja
+                  Panduan menonton
                 </button>
               </div>
             </div>
@@ -277,7 +277,7 @@ export const Header: React.FC<HeaderProps> = ({
                     <span className="text-[10px] text-amber-800 font-mono font-medium">Terbuka</span>
                   </div>
                   <p className="text-xs text-amber-900 mb-3">
-                    Konfigurasi tautan Shopee, auto-redirect, dan preferensi toko.
+                    Konfigurasi 
                   </p>
                   <button
                     onClick={handleSettingsClick}
